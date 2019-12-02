@@ -59,9 +59,6 @@ function check() {
         errorMessage: function(label, element) {
             label.insertAfter(element);
         },
-
-        wrapper: 'span',
-
        //create table
         submitform: function (form) {
             dynamic_table()
